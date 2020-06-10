@@ -20,7 +20,7 @@ Attention
 -------------------------------
 The transformation is not a conversation into PAGE XML. This transformation deletes the proprietary transcript elements the first time. Important information in custom attributes is not converted to type values. An example:
 
-TanskribusPage
+**TanskribusPage**
 ```xml
         <GraphicRegion id="Graphic_1591786590801_37" 
                        custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
@@ -31,7 +31,7 @@ TanskribusPage
             <Coords points="478,1296 778,1296 778,1523 478,1523"/>
         </GraphicRegion>
 ```
-a right PAGE XML intance
+a **valid PAGE XML** instance (snippets:
 ```xml
         <GraphicRegion id="Graphic_1591786590801_37" type="handwritten-annotation" 
                        custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
