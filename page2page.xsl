@@ -43,7 +43,7 @@
     <xsl:template match="PcGts">
         <xsl:element name="PcGts"
             namespace="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15">
-            <xsl:attribute name="xsi:schemaLocatio">http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd</xsl:attribute>
+            <xsl:attribute name="xsi:schemaLocation">http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd</xsl:attribute>
             <xsl:apply-templates select="Metadata"/>
             <xsl:apply-templates select="Page"/>
         </xsl:element>
