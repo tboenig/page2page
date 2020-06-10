@@ -28,9 +28,11 @@
 
 
     <xd:doc>
-        <xd:desc>Parameter n = stands for no element <xd:pre>PrintSpace</xd:pre> transformation, y =
-            stands for element <xd:pre>PrintSpace</xd:pre> transformation to element
-            <xd:pre>Border</xd:pre>, #default = n</xd:desc>
+        <xd:desc>Parameter <xd:pre>standard</xd:pre> with value:<xd:ul>
+            <xd:li>n = stands for no element <xd:pre>PrintSpace</xd:pre> transformation</xd:li>
+            <xd:li>y = stands for element <xd:pre>PrintSpace</xd:pre> transformation to element <xd:pre>Border</xd:pre></xd:li>
+            <xd:li>#default = n</xd:li>
+        </xd:ul></xd:desc>
     </xd:doc>
     <xsl:param name="standard">n</xsl:param>
 
