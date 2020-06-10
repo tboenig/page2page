@@ -13,7 +13,7 @@ Transformation
 -------------------------------
 
 ```sh
-java -jar ../saxon9he.jar -xsl:page2page.xsl -s:transkribusPage.xml standard=y -o: standardPage.xml
+java -jar saxon-he-10.1.jar -xsl:page2page.xsl -s:transkribusPage.xml standard=y -o:standardPage.xml
 ```
 
 ToDo
