@@ -18,7 +18,7 @@ java -jar saxon-he-10.1.jar -xsl:page2page.xsl -s:transkribusPage.xml standard=y
 
 Attention
 -------------------------------
-The transformation is not a conversation into PAGE XML. This transformation deletes the proprietary Transkribus elements. Important information in custom attributes is not converted to type values. An example:
+The transformation is not a conversation into PAGE XML. This transformation deletes the proprietary Transkribus elements at first. Important information in custom attributes is not converted to type values. An example:
 
 **TanskribusPage**
 ```xml
