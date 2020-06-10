@@ -93,8 +93,6 @@
         </xsl:variable>
 
 
-
-        <xsl:message select="$printspace"/>
         <xsl:element name="Page"
             namespace="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15">
             <xsl:copy-of select="@*"/>
