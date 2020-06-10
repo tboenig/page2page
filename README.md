@@ -8,14 +8,6 @@ Parameter `standard`:
 - y = stands for element `PrintSpace` transformation into element `Border`
 - #default = n
 
-
-Transformation
--------------------------------
-
-```sh
-java -jar saxon-he-10.1.jar -xsl:page2page.xsl -s:transkribusPage.xml standard=y -o:standardPage.xml
-```
-
 Attention
 -------------------------------
 The transformation is not a conversation into PAGE XML. This transformation deletes the proprietary Transkribus elements at first. Important information in custom attributes is not converted to type values. An example:
@@ -43,6 +35,19 @@ a **valid PAGE XML** instance (snippets:
         </GraphicRegion>
 ```
 
+Examples
+-------------------------------
+
+The PAGE XML examples are not Ground Truth files for training or ocr evaluations. They are only examples of page files from the Transkribus software.
+If you want to use these files for Ground Truth see and read: The The Ground-Truth-Guidelines (https://ocr-d.de/en/gt-guidelines/trans/)
+
+
+Transformation
+-------------------------------
+
+```sh
+java -jar saxon-he-10.1.jar -xsl:page2page.xsl -s:transkribusPage.xml standard=y -o:standardPage.xml
+```
 
 
 ToDo
