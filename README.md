@@ -22,17 +22,19 @@ The transformation is not a conversation into PAGE XML. This transformation dele
 
 TanskribusPage
 ```xml
-        <GraphicRegion id="Graphic_1591786590801_37" custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
+        <GraphicRegion id="Graphic_1591786590801_37" 
+                       custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
             <Coords points="937,132 417,131 417,58 937,59"/>
         </GraphicRegion>
-        <GraphicRegion id="Graphic_1591786870232_47" custom="readingOrder {index:6;} structure {type:stamp;}">
+        <GraphicRegion id="Graphic_1591786870232_47" 
+                       custom="readingOrder {index:6;} structure {type:stamp;}">
             <Coords points="478,1296 778,1296 778,1523 478,1523"/>
         </GraphicRegion>
 ```
 a right PAGE XML intance
 ```xml
         <GraphicRegion id="Graphic_1591786590801_37" type="handwritten-annotation" 
-                           custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
+                       custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
             <Coords points="937,132 417,131 417,58 937,59"/>
         </GraphicRegion>
         <GraphicRegion id="Graphic_1591786870232_47"  type="stamp" 
