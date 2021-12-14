@@ -4,9 +4,20 @@ Transkribus (https://transkribus.eu/Transkribus) into a PAGE XML valid format
 (https://www.primaresearch.org/schema/PAGE/gts/pagecontent/ newest version from 2019-07-16.
 
 Parameter `standard`: 
-- n = stands for no element `PrintSpace` transformation, 
-- y = stands for element `PrintSpace` transformation into element `Border`
-- #default = n
+- np = stands for no element `PrintSpace` transformation
+- yp = stands for element `PrintSpace` transformation to element `Border`
+- nb = stands for no element  `Border` transformation</xd:li>
+- yb = stands for element `Border` transformation to element `PrintSpace`
+- #default = np
+
+Parameter `image`: 
+- pi = uses the element Page with the attribute `imageFilename`
+- ti = uses the element TranskribusMetadata with the attribute `imgUrl`
+- #default = pi
+
+
+
+
 
 Attention
 -------------------------------
