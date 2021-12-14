@@ -39,10 +39,10 @@
             <xd:li>#default = n</xd:li>
         </xd:ul></xd:desc>
     </xd:doc>
-    <xsl:param name="standard">n</xsl:param>
+    <xsl:param name="standard">np</xsl:param>
     
     <xd:doc>
-        <xd:desc>Parameter <xd:pre>standard</xd:pre> with values:<xd:ul>
+        <xd:desc>Parameter <xd:pre>image</xd:pre> with values:<xd:ul>
             <xd:li>pi = uses the element Page with the attribute <xd:pre>imageFilename</xd:pre></xd:li>
             <xd:li>ti = uses the element TranskribusMetadata with the attribute <xd:pre>imgUrl</xd:pre></xd:li>
             <xd:li>#default = pi</xd:li>
