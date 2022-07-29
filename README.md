@@ -6,7 +6,7 @@ Transkribus (https://transkribus.eu/Transkribus) into a PAGE XML valid format
 Parameter `standard`: 
 - np = stands for no element `PrintSpace` transformation
 - yp = stands for element `PrintSpace` transformation to element `Border`
-- nb = stands for no element  `Border` transformation</xd:li>
+- nb = stands for no element  `Border` transformation
 - yb = stands for element `Border` transformation to element `PrintSpace`
 - #default = np
 
