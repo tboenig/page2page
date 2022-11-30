@@ -63,4 +63,4 @@ java -jar saxon-he-10.1.jar -xsl:page2page.xsl -s:transkribusPage.xml standard=y
 
 ToDo
 --------------------------------
-Transkibus Page also uses an invalid PAGE XML table model. This model must also be transformed into PAGE XML.
+Transkribus Page also uses an invalid PAGE XML table model. This model must also be transformed into PAGE XML.
