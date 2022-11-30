@@ -84,8 +84,8 @@
         
             <xsl:if test="$cBorder >= 2 or $cPrintSpace >=2">
             <xsl:message>
-                <xsl:if test="$cBorder > 1">There are at least two Border elements in the page file, this is an error. Only the frist element was transformed.</xsl:if>
-                <xsl:if test="$cPrintSpace > 1">There are at least two PrintSpace elements in the page file, this is an error. Only the frist element was transformed.</xsl:if>
+                <xsl:if test="$cBorder > 1">There are at least two Border elements in the page file, this is an error. Only the first element was transformed.</xsl:if>
+                <xsl:if test="$cPrintSpace > 1">There are at least two PrintSpace elements in the page file, this is an error. Only the first element was transformed.</xsl:if>
             </xsl:message>
             </xsl:if>
         
@@ -201,7 +201,7 @@
 
     <xd:doc>
         <xd:desc>deletes for this moment the nodes <xd:pre>PrintSpace</xd:pre> and
-            <xd:pre>Border</xd:pre> and contructs a new <xd:pre>Border</xd:pre> or
+            <xd:pre>Border</xd:pre> and constructs a new <xd:pre>Border</xd:pre> or
             <xd:pre>PrintSpace</xd:pre> possibility in the template <xd:pre>Page</xd:pre></xd:desc>
     </xd:doc>
     <xsl:template match="o:PrintSpace | o:Border | n:PrintSpace | n:Border"/>
